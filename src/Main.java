@@ -13,14 +13,14 @@ public class Main {
         // Task2
         System.out.println();
         System.out.println("Task2");
-        System.out.println(fullName.toUpperCase());
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
 
         // Task3
         System.out.println();
         System.out.println("Task3");
         fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace("ё", "е");
-        System.out.println(fullName);
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullName);
 
     }
 }

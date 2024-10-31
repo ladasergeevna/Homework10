@@ -8,19 +8,19 @@ public class Main {
         String middleName = "Ivan";
         String lastName = "Ivanovich";
         String fullName = firstName + " " + middleName + " " + lastName;
-        System.out.println("Ф. И. О. сотрудника — " + fullName);
+        System.out.println("Ф.И.О. сотрудника — " + fullName);
 
         // Task2
         System.out.println();
         System.out.println("Task2");
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+        System.out.println("Данные Ф.И.О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
 
         // Task3
         System.out.println();
         System.out.println("Task3");
         fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace("ё", "е");
-        System.out.println("Данные Ф. И. О. сотрудника — " + fullName);
+        System.out.println("Данные Ф.И.О. сотрудника — " + fullName);
 
     }
 }
